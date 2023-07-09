@@ -25,5 +25,11 @@ body {
 }
 
 #card h1 {
+	color: #cecbfa;
+}
+
+#score .big {
+	font-size: 5em;
 	color: #ffffff;
+	font-weight: bold;
 }
