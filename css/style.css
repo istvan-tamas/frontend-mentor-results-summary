@@ -1,6 +1,7 @@
 * {
 	margin: 0;
 	padding: 0;
+	font-family: 'Hanken Grotesk';
 }
 
 body {
@@ -11,7 +12,12 @@ body {
 
 #card {
 	background-color: aqua;
+	border-radius: 15px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+
+#card h1 {
+	color: #ffffff;
 }
