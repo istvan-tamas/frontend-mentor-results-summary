@@ -26,10 +26,25 @@ body {
 
 #card h1 {
 	color: #cecbfa;
+	font-size: 1.5em;
 }
 
 #score .big {
 	font-size: 5em;
 	color: #ffffff;
 	font-weight: bold;
+}
+
+#score {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 200px;
+	height: 200px;
+	border-radius: 100px;
+	background: linear-gradient(
+		0deg,
+		rgba(102, 75, 218, 1) 100%,
+		rgba(49, 45, 228, 1) 35%
+	);
 }
