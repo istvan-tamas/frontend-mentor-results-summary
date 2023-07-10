@@ -1,0 +1,15 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#card {
+	display: flex;
+	align-items: center;
+}
+
+#result {
+	padding: 2em;
+	background-image: linear-gradient(#6746eb, #3129ee);
+	border-radius: 30px;
+}
