@@ -7,6 +7,7 @@
 #card {
 	display: flex;
 	align-items: center;
+	flex-direction: row;
 	box-shadow: 5px 2px 30px #c9c9c9;
 	width: 700px;
 	border-radius: 30px;
@@ -21,7 +22,8 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	width: 230px;
+	width: 300px;
+	flex: 1;
 }
 
 #result h1 {
@@ -148,4 +150,27 @@
 
 .type img {
 	margin-right: 1em;
+}
+
+.btn-submit {
+	margin-top: 1em;
+	width: 100%;
+	height: 50px;
+	border-radius: 30px;
+	background: linear-gradient(0deg, #6746eb 0%, #3129ee 100%);
+	color: #ffffff;
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: bold;
+}
+
+.btn-submit:hover,
+a:hover {
+	background-color: #2a1e5a;
+}
+
+.attribution {
+	margin: 2em;
 }
