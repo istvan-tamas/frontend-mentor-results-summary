@@ -7,7 +7,12 @@
 #card {
 	display: flex;
 	align-items: center;
+	box-shadow: 5px 2px 30px #c9c9c9;
+	width: 700px;
+	border-radius: 30px;
 }
+
+/* result side side */
 
 #result {
 	padding: 3em;
@@ -66,4 +71,15 @@
 	margin-top: 1em;
 	line-height: 1.8em;
 	text-align: center;
+}
+
+/* summary side */
+
+#summary {
+	padding: 3em;
+	border-radius: 30px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 400px;
 }
