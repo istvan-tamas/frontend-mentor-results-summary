@@ -83,3 +83,37 @@
 	align-items: center;
 	width: 400px;
 }
+
+#summary h1 {
+	align-self: flex-start;
+}
+
+#summary ul {
+	list-style-type: none;
+	width: 100%;
+}
+
+#summary ul li {
+	padding: 0.5em 1em;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 1.3em 0;
+	height: 50px;
+	border-radius: 15px;
+	font-weight: bold;
+}
+
+#summary ul li:nth-child(1) {
+	background-color: #ffd2cd;
+}
+
+#summary ul li:nth-child(2) {
+	background-color: #ffeaba;
+}
+#summary ul li:nth-child(3) {
+	background-color: #a4e3dc;
+}
+#summary ul li:nth-child(4) {
+	background-color: #9b9bee;
+}
