@@ -14,7 +14,7 @@ body {
 	background: rgb(2, 0, 36);
 	background: linear-gradient(
 		0deg,
-		rgba(49, 45, 228, 1) 35%,
+		rgba(49, 45, 228, 1) 30%,
 		rgba(102, 75, 218, 1) 100%
 	);
 	padding: 2em;
@@ -27,6 +27,8 @@ body {
 #card h1 {
 	color: #cecbfa;
 	font-size: 1.5em;
+	align-self: center;
+	margin-bottom: 1em;
 }
 
 #score .big {
@@ -44,7 +46,11 @@ body {
 	border-radius: 100px;
 	background: linear-gradient(
 		0deg,
-		rgba(102, 75, 218, 1) 100%,
-		rgba(49, 45, 228, 1) 35%
+		rgba(71, 52, 240, 1) 30%,
+		rgba(77, 34, 201, 1) 100%
 	);
+}
+
+#score p {
+	color: #cecbfa;
 }
