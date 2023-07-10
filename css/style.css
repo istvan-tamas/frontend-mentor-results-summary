@@ -101,7 +101,6 @@
 	margin: 1.3em 0;
 	height: 50px;
 	border-radius: 15px;
-	font-weight: bold;
 }
 
 #summary ul li:nth-child(1) {
@@ -116,4 +115,22 @@
 }
 #summary ul li:nth-child(4) {
 	background-color: #9b9bee;
+}
+
+#summary ul li:nth-child(1) .type {
+	color: #ee2929;
+}
+
+#summary ul li:nth-child(2) .type {
+	color: #ce9717;
+}
+#summary ul li:nth-child(3) .type {
+	color: #60918b;
+}
+#summary ul li:nth-child(4) .type {
+	color: #545483;
+}
+
+.bold {
+	font-weight: bold;
 }
