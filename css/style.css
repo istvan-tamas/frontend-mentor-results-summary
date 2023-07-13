@@ -186,3 +186,7 @@ a:hover {
 .attribution {
 	margin-top: 2em;
 }
+
+.attribution a:hover {
+	background: none;
+}
