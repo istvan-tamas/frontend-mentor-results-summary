@@ -4,6 +4,13 @@
 	font-family: 'Hanken Grotesk';
 }
 
+#container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
 #card {
 	display: flex;
 	align-items: center;
@@ -172,17 +179,10 @@
 	font-weight: bold;
 }
 
-.btn-submit a:hover {
-	background-color: #2a1e5a;
+a:hover {
+	background: #2a1e5a;
 }
 
-#container {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	align-self: center;
-	flex-direction: column;
-}
 .attribution {
 	margin-top: 2em;
 }
